@@ -15,5 +15,11 @@ public class Main {
 		
 		Cat c2 = new Cat("Sambolaya", "Kalani");
 		c2.showDetails();
+		
+		Dog d1 = new Dog("Hill", "Kumari");
+		d1.showDetails();
+		
+		Dog d2 = new Dog("Max", "Kamal", 5, 2);
+		d2.showDetails();
 	}
 }// end of demo class
