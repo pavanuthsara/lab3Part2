@@ -9,5 +9,11 @@ public class Main {
 		
 		Cat c = new Cat("Kyan", "Silva", 4, 4);
 		c.showDetails();
+		
+		Pet p2 = new Pet("Bruno", "Pavan");
+		p2.showDetails();
+		
+		Cat c2 = new Cat("Sambolaya", "Kalani");
+		c2.showDetails();
 	}
 }// end of demo class
