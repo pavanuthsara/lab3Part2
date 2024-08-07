@@ -12,4 +12,9 @@ public class Dog extends Pet{
 		super(n, o);
 		this.noOfMasters = 1;
 	}
+	
+	public void showDetails() {
+		super.showDetails();
+		System.out.println("I am dog. I have " + this.noOfMasters + " at home.");
+	}
 }

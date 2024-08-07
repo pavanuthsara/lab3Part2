@@ -21,5 +21,8 @@ public class Main {
 		
 		Dog d2 = new Dog("Max", "Kamal", 5, 2);
 		d2.showDetails();
+		
+		Pet p3 = c;
+		p3.showDetails();
 	}
 }// end of demo class
